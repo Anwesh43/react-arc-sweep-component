@@ -2,9 +2,9 @@ import React from 'react'
 import SweepArcPart from './SweepArcPart'
 
 const SweepArc = ({scale, w, h} => {
-    return (<div>
+    return (<React.Fragment>
                 {[0, 1, 2, 3].map(i => <SweepArcPart i = {i} w = {w} h = {h} scale = {scale}/>)}
-            </div>)
+            </React.Fragment>)
 })
 
 export default SweepArc
