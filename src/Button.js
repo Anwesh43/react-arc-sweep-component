@@ -10,3 +10,4 @@ const buttonStyle = (w, h) => {
 const Button = ({w, h, onClick}) => {
     return <button onClick = {onClick} style = {buttonStyle(w, h)}>Start</button>
 }
+export default Button
